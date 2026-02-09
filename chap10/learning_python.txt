@@ -1,0 +1,3 @@
+In python you can print stuff
+In python you can loop stuff
+In python you can read files
