@@ -1,0 +1,11 @@
+{% extends 'blogs/base.xhtml' %}
+
+{% block content %}
+<ul>
+    {% for blog in blogs %}
+    <li>
+        <p>{{blog.text}}</p>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}
